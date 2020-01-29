@@ -1,28 +1,38 @@
 
 html, body {
-  height: 100%; }
+  height: 100%; 
+}
 
 body {
   background: gray;
   margin: 0;
   padding: 0;
-  font-family: PragmaticaLightC; }
-  body.admin-bar #header {
-    top: 32px; }
+  font-family: PragmaticaLightC; 
+}
+body.admin-bar #header {
+  top: 32px; 
+}
 
 .container {
-  margin: auto; }
-  @media only screen and (max-width: 991px) {
-    .container {
-      width: auto;
-      padding-left: 15px;
-      padding-right: 15px; } }
-  @media only screen and (min-width: 992px) {
-    .container {
-      width: 960px; } }
-  @media only screen and (min-width: 1200px) {
-    .container {
-      width: 1020px; } }
+  margin: auto; 
+}
+@media only screen and (max-width: 991px) {
+  .container {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+  } 
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 960px; 
+  } 
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1020px; 
+  } 
+}
 
 .aligned .left {
   float: left; }
@@ -74,7 +84,7 @@ div.wpcf7-response-output {
 }
 @media only screen and (max-width: 767px) {
   #header .logo {
-    width: 150px; 
+    width: 77px; 
   } 
 }
 #header .mobile-menu {
@@ -82,7 +92,7 @@ div.wpcf7-response-output {
   padding: 0;
   margin: 0;
   text-align: center;
-  margin-top: 18px; }
+  margin-top: 5px; }
 #header .mobile-menu li {
   list-style: none;
   display: inline-block;
@@ -93,7 +103,7 @@ div.wpcf7-response-output {
   text-decoration: none; 
 }
 #header.active {
-  height: 130px;
+  height: 133px;
   border-bottom: 1px solid #444444;
   overflow: hidden; 
 }
@@ -230,7 +240,7 @@ div.wpcf7-response-output {
   width: 16px;
   height: 16px;
   display: inline-block;
-  /*background-image: url(img/menu-icon.png);*/
+  /*background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///8BAQEAAAD6+vpFRUXT09PX19dRUVG0tLQsLCyxsbEcHBykpKTFxcXAwMDo6Oju7u5lZWXg4ODMzMyBgYGpqanz8/NJSUmbm5tqamqLi4sMDAxZWVk1NTVgYGB6eno9PT2SkpJxcXEhISEGnP5KAAAChElEQVR4nO3dW3LiMBBGYSFuDuYO4RYSMpn97zF2puZhUmNEle2/2845CwB9FcoPUssJgYiIiIiIiIiIiIioscbLbPatbLmyXlVjrc6xopP10pppVlAG/y3GfG29ugbKqnx/jEPr9dXucA9YEDfWC6zd5S6w+CN2/nnzcl846PzT5pAAdv9nuk0KR9ZLrNkEIUL3IUToP4QI/YcQof8QIvQfQoT+Q4jQfwgR+g8hQv8hROg/hAj9lz4DPlovsbrd5TpNNkoKXx74lPPcYGJjl1eNcv1bAljOmzzUWT1aNH9g7U1WGLUDYjsxsDTmUmFqDqgVonK2aGEALH6oQuHeQjiIW51waiNc6oSvNsJMJ3xCiBAhQoQIESJEiBAhQoQIf4QwuZPdeeHGRrjTCec2u4nCjf21fsu7EL7pgCHc9MKo3C4NBk/TGOdSYLkprPylFl/2LAaGsJgqzw/3Ni9f2E7GiSaz5Bnwe/JDxlvP75bo/6QCQoT+Q4jQfwgR+g8hQv8hROg/hAj9hxCh/xAi9B9ChP5DiNB/CBH6b5UUTq2XWLfUrELcW6+wbteUcGG9wrolLtRKr7621P37pt3/E4ZyQKzS2Jf/NHOrHnUS3uxttfX87T3/3tPo1hcfERERERER9b6hJiPd+tfrY5eymugqvAL8t0v5xfe3Qpur/KqJGLhR35ONynvOweSqc4wHIXBoctP5JhQm7022IlQeAHzYvHFA+LA59v6tEf1/8wdChAgRIkSIECFChAgRIkT4M4T938Xo/05U1vvdxOR8eitC6cz7s8WuvvaU7aw/mRlLgSGcdIeHX/3Wvr207HA6ynj5BwPTREREREREREREREREXegT21lAL2eaTVgAAAAASUVORK5CYII=);*/
   background-repeat: no-repeat;
   background-position: 0px -12px;
   float: left;
@@ -308,14 +318,17 @@ div.wpcf7-response-output {
 
 .div-first{
   top: 3px;
+  transition: 0.4s;
 }
 
 .div-second{
   top: 8px;
+  transition: 0.4s;
 }
 
 .div-third{
-  top: 13px
+  top: 13px;
+  transition: 0.4s;
 }
 
 .nav-menu .icon-plus{
@@ -631,8 +644,8 @@ div.wpcf7-response-output {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 40px;
-  padding-top: 30px; 
+  padding-bottom: 100vh;
+  padding-top: 140px; 
 }
 #services-slider .main-slider .slick-list .slick-track .slick-slide .slide-caption p {
   margin: 0;
@@ -769,6 +782,11 @@ div.wpcf7-response-output {
   padding-bottom: 30px;
   text-align: center; 
 }
+.contact #contacts .contacts-social .contacts-social-info {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  text-align: center; 
+}
 #contacts .contacts-social .contacts-social-info h2 {
   font-size: 60px;
   padding-top: 20px;
@@ -873,12 +891,12 @@ div.wpcf7-response-output {
     font-size: 22px; 
   } 
 }
-#contacts .contact-form .left, #contacts .contact-form .right {
-  width: 50%;
+#contacts .contact-form .left {
+  width: 100%;
   box-sizing: border-box; 
 }
 @media only screen and (max-width: 767px) {
-  #contacts .contact-form .left, #contacts .contact-form .right {
+  #contacts .contact-form .left {
     width: 100%;
     padding: 0 !important; 
   } 
@@ -907,48 +925,13 @@ div.wpcf7-response-output {
     line-height: 25px; 
   } 
 }
-#contacts .contact-form .right {
-  padding-left: 30px; 
+
+.desktop-left-menu:hover .div-first{
+  top: 4px;
+  transition: 0.5s;
 }
-#contacts .contact-form .right .contact-form-fields .form-input {
-  margin-bottom: 10px; 
-}
-#contacts .contact-form .right .contact-form-fields .form-input input {
-  width: 100%;
-  border: 1px solid #a8a7a7;
-  margin-bottom: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: PragmaticaLightC;
-  -webkit-appearance: none;
-  line-height: 30px; 
-}
-#contacts .contact-form .right .contact-form-fields .form-input textarea {
-  max-width: 100%;
-  height: 180px;
-  max-height: 180px;
-  width: 100%;
-  border: 1px solid #a8a7a7;
-  margin-bottom: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  font-family: PragmaticaLightC;
-  resize: none; 
-}
-#contacts .contact-form .right .contact-form-fields .form-input button {
-  width: 100%;
-  display: block;
-  cursor: pointer;
-  padding-left: 10px;
-  border: 1px solid #a8a7a7;
-  box-sizing: border-box;
-  background: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 24px;
-  padding: 5px 0; 
+
+.desktop-left-menu:hover .div-third{
+  top: 12px;
+  transition: 0.5s;
 }
